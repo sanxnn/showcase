@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showcase Project | kodingan.web.id</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        saasbg: '#030712',
+                        saascard: '#0b1329',
+                        saasborder: '#1f293d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-saasbg text-slate-200 font-sans min-h-screen antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Navbar Minimalis Gaya SaaS -->
+    <nav class="border-b border-saasborder/60 bg-saasbg/80 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <span class="text-xl font-bold tracking-tight text-white">
+                    kodingan<span class="text-indigo-500">.web.id</span>
+                </span>
+            </div>
+            <div>
+                <a href="https://sanxnn.katanya.dev" target="_blank" class="text-sm font-semibold text-white bg-indigo-600 hover:bg-indigo-500 px-4 py-2 rounded-lg shadow-md shadow-indigo-600/10 transition-all duration-200">
+                    Get in touch with me
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative max-w-6xl mx-auto px-6 pt-20 pb-12 text-center overflow-hidden">
+        <!-- Background Grid Effect khas SaaS -->
+        <div class="absolute inset-0 bg-[linear-gradient(to_right,#1f293d_1px,transparent_1px),linear-gradient(to_bottom,#1f293d_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-20 pointer-events-none"></div>
+        
+        <div class="relative z-10">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 mb-6">
+                <span class="w-1.5 h-1.5 rounded-full bg-indigo-400 animate-pulse"></span> Production Environment
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-none max-w-3xl mx-auto mb-6">
+                Project Laboratory & Showcase
+            </h1>
+            <p class="text-slate-400 max-w-xl mx-auto text-base md:text-lg leading-relaxed mb-8">
+                Eksperimen, aplikasi web, dan sistem siap pakai yang dideploy langsung di atas infrastruktur VPS pribadi.
+            </p>
+            
+            <!-- Badge Pembuat -->
+            <div class="inline-flex items-center gap-2 px-4 py-2 bg-saascard border border-saasborder rounded-xl text-xs md:text-sm text-slate-300">
+                <span class="text-slate-500">Crafted by</span> 
+                <span class="font-semibold text-indigo-400">Muhammad Hasan Al Bukhori</span> 
+                <span class="text-slate-600">(alias sanxnn)</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section: List Terintegrasi Domain -->
+    <section class="max-w-6xl mx-auto px-6 mb-16">
+        <div class="bg-gradient-to-r from-saascard to-slate-900 border border-saasborder rounded-xl p-6 shadow-xl">
+            <h3 class="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-4 flex items-center gap-2">
+                <svg class="w-4 h-4 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                Network Domain Directory
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <a href="https://kodingan.web.id" class="p-3 bg-slate-950/60 rounded-lg border border-saasborder/60 hover:border-indigo-500/40 transition-colors flex items-center justify-between">
+                    <div>
+                        <p class="text-xs text-slate-500 font-mono">Showcase Platform</p>
+                        <p class="text-sm font-bold text-slate-200">kodingan.web.id</p>
+                    </div>
+                    <span class="w-2 h-2 rounded-full bg-indigo-500 shadow-md shadow-indigo-500/50"></span>
+                </a>
+                <a href="https://sanxnn.katanya.dev" target="_blank" class="p-3 bg-slate-950/60 rounded-lg border border-saasborder/60 hover:border-indigo-500/40 transition-colors flex items-center justify-between">
+                    <div>
+                        <p class="text-xs text-slate-500 font-mono">Hub & Social Links</p>
+                        <p class="text-sm font-bold text-slate-200">sanxnn.katanya.dev</p>
+                    </div>
+                    <span class="w-2 h-2 rounded-full bg-emerald-500 shadow-md shadow-emerald-500/50"></span>
+                </a>
+                <a href="https://sanxnn.is-a.dev" target="_blank" class="p-3 bg-slate-950/60 rounded-lg border border-saasborder/60 hover:border-indigo-500/40 transition-colors flex items-center justify-between">
+                    <div>
+                        <p class="text-xs text-slate-500 font-mono">Main Portfolio</p>
+                        <p class="text-sm font-bold text-slate-200">sanxnn.is-a.dev</p>
+                    </div>
+                    <span class="w-2 h-2 rounded-full bg-sky-500 shadow-md shadow-sky-500/50"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content: Project List -->
+    <main class="max-w-6xl mx-auto px-6 pb-24">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8 pb-4 border-b border-saasborder/40">
+            <div>
+                <h2 class="text-xl font-bold text-white tracking-tight">Active Deployments</h2>
+                <p class="text-sm text-slate-500">Subdomain terisolasi untuk tiap modul aplikasi.</p>
+            </div>
+            <div class="text-xs text-slate-400 bg-saascard px-3 py-1.5 rounded-md border border-saasborder">
+                Server Status: <span class="text-emerald-400 font-medium">Optimal</span>
+            </div>
+        </div>
+
+        <!-- Grid Container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <!-- Project 1: Siprespro -->
+            <div class="group relative bg-saascard border border-saasborder rounded-xl p-6 flex flex-col justify-between transition-all duration-300 hover:border-indigo-500/40 hover:shadow-xl hover:shadow-indigo-500/5">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="bg-indigo-500/10 p-2 rounded-lg text-indigo-400 border border-indigo-500/10">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                        </div>
+                        <span class="text-[10px] font-semibold tracking-wider uppercase px-2 py-0.5 bg-indigo-500/10 text-indigo-400 rounded-md border border-indigo-500/10">siprespro.kodingan.web.id</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">siprespro</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
+                        Sistem Informasi Presensi dan Manajemen Akademik. Dirancang profesional untuk menangani manajemen data perkuliahan, absensi mahasiswa, dan workflow validasi data secara realtime.
+                    </p>
+                </div>
+                <div>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs bg-slate-900 text-slate-400 px-2.5 py-1 rounded-md border border-saasborder">Laravel</span>
+                        <span class="text-xs bg-slate-900 text-slate-400 px-2.5 py-1 rounded-md border border-saasborder">MySQL</span>
+                        <span class="text-xs bg-slate-900 text-slate-400 px-2.5 py-1 rounded-md border border-saasborder">Nginx</span>
+                    </div>
+                    <a href="https://siprespro.kodingan.web.id" target="_blank" class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-slate-900 hover:bg-indigo-600 hover:text-white text-slate-300 font-medium text-sm rounded-lg border border-saasborder hover:border-indigo-500 transition-all duration-200">
+                        Launch Application
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2: URL Lookup -->
+            <div class="group relative bg-saascard border border-saasborder rounded-xl p-6 flex flex-col justify-between transition-all duration-300 hover:border-indigo-500/40 hover:shadow-xl hover:shadow-indigo-500/5">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="bg-indigo-500/10 p-2 rounded-lg text-indigo-400 border border-indigo-500/10">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                        </div>
+                        <span class="text-[10px] font-semibold tracking-wider uppercase px-2 py-0.5 bg-amber-500/10 text-amber-400 rounded-md border border-amber-500/20">Development</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">URL-LOOKUP</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-6">
+                        Integration service berbasis API untuk domain lookup. Menggunakan cURL request untuk memproses data eksternal, validasi DNS, dan pengecekan network endpoint.
+                    </p>
+                </div>
+                <div>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs bg-slate-900 text-slate-400 px-2.5 py-1 rounded-md border border-saasborder">PHP Class</span>
+                        <span class="text-xs bg-slate-900 text-slate-400 px-2.5 py-1 rounded-md border border-saasborder">cURL</span>
+                        <span class="text-xs bg-slate-900 text-slate-400 px-2.5 py-1 rounded-md border border-saasborder">REST API</span>
+                    </div>
+                    <button disabled class="w-full inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-slate-900/50 text-slate-600 font-medium text-sm rounded-lg border border-saasborder/50 cursor-not-allowed">
+                        Staging Process
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer SaaS Style -->
+    <footer class="border-t border-saasborder/60 bg-saascard/20 py-12 text-center text-xs text-slate-500">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>&copy; 2026 kodingan.web.id. Deployed on Personal VPS infrastructure.</p>
+            <div class="flex gap-4">
+                <a href="https://sanxnn.katanya.dev" target="_blank" class="hover:text-slate-400 transition-colors">Contact Hub</a>
+                <a href="https://sanxnn.is-a.dev" target="_blank" class="hover:text-slate-400 transition-colors">Portfolio</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
